@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f2f5; */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right,#97b8e9,#5e32e2,#fb23ff);
+    align-items: center;
+    height: 100vh;
+    min-width: 500px;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    width: 396px;
+    margin-right: 100px;
+    padding: 20px 0 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    display: flex;
+}
+
+input {
+    width: 330px;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 6px;
+    box-shadow: none;
+    border-style: solid;
+    vertical-align: middle;
+}
+input:focus {
+    outline: 1px solid #1877f2; 
+}
+input::placeholder {
+    opacity: 0.4; 
+}
+input:focus::placeholder{
+    opacity: 0.2; 
+    
+}
+
+button {
+    width: 330px;
+    font-family: inherit;
+    /* background-color: #1877f2; */
+    background: linear-gradient(to right,#092e9e,#725abd,#fb23ff);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    line-height: 48px;
+    padding: 0 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    background: linear-gradient(to right, #2b7acf, #075ca6);
+
+}
+#forgetpass{
+    font-size: 14px;
+    color: #1877f2;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+#forgetpass:hover{
+    text-decoration: underline;
+
+}
+.hr{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 20px 36px;
+    display: flex;
+
+}
+#createnewaccount{
+    width: 50%;
+    /* background-color: rgb(33, 187, 33); */
+    background: linear-gradient(to right,#7f85d6,#7703fb,#fb23ff,#ff0e6e);
+    /* color: #fff; */
+    color: rgb(234, 225, 225);
+    border: none;
+    border-radius: 6px;
+    padding: 0 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border-color: #36a420;
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 48px;
+    font-size: 17px;
+    font-family: inherit;
+}
+
+#createnewaccount:hover{
+    background-color: green;
+    
+}
+
+#errorMsg {
+    display: none;
+    background-color: rgb(199, 84, 84);
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 9999;
+}
+
+#errorMsg:hover{
+    background-color: rgb(234, 90, 90);
+
+}
+.text{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.fb-logo {
+    width: 400px;
+    height: 106px;
+    margin-right: 79px;
+    border: none;
+}
+
+.text {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    width: 500px;
+    margin-left: 100px;
+    line-height: 32px;
+}
+
+._8ice {
+    box-sizing: border-box;
+    padding: 50px 0 10px;
+    width: 680px;
+    margin-bottom: 60px;
+    text-align: center;
+    margin-right: 50px;
+}
+

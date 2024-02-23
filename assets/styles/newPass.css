@@ -1,0 +1,156 @@
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f2f5; */
+    margin: 0;
+    background-color: #e9ebee;
+}
+
+
+
+h2{
+    text-align: left;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: -15px;
+  padding-top: 10px;
+  margin-left: 20px;
+
+}
+.text{
+    text-align: left;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 20px;
+
+}
+
+
+.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px  450px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    width: 496px;
+    margin-right: 40px;
+    /* padding: 20px; */
+    padding: 20px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    display: flex;
+
+}
+#password{
+    width: 470px;
+    padding: 14px 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 6px;
+    box-shadow: none;
+    border-style: solid;
+    vertical-align: middle;
+}
+#password:focus {
+    outline: 1px solid #e9ebee; 
+}
+#password::placeholder {
+    opacity: 0.4; 
+}
+#password:focus::placeholder{
+    opacity: 0.2; 
+    
+}
+#Cpassword{
+    width: 470px;
+    padding: 14px 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 6px;
+    box-shadow: none;
+    border-style: solid;
+    vertical-align: middle;
+}
+#Cpassword:focus {
+    outline: 1px solid #e9ebee; 
+}
+#Cpassword::placeholder {
+    opacity: 0.4; 
+}
+#Cpassword:focus::placeholder{
+    opacity: 0.2; 
+    
+}
+hr{
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-color: 3px #fff;
+}
+#cancel{
+    width: 10%;
+    background-color: #d3d6de;
+    color: #1a1919;
+    border: none;
+    border-radius: 6px;
+    padding: 0 20px;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 36px;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: bold;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    margin-left: 270px;
+}
+#bottom{
+    width: 20%;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0 20px;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 36px;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: bold;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+}
+
+
+#errorMsg {
+    display: none;
+    background-color: rgb(248, 1, 1);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 15px;
+}
+#errorMsg:hover{
+    background-color: rgb(234, 90, 90);
+
+}
